@@ -27,8 +27,6 @@ export const TableFilterPanel = () => {
       : initColFilters(tableColumns)
   );
 
-  console.log(tableColumns, filterState);
-
   const handleFilterInputChange = (field, value, type) => {
     setFilterState((prevFilter) =>
       prevFilter.map((f) =>
