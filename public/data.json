@@ -1,0 +1,902 @@
+[
+  {
+    "id": "USR001",
+    "name": "Alice Johnson",
+    "age": 34,
+    "verificationDate": "10/01/2023",
+    "status": "Verified",
+    "industry": "Fintech",
+    "fraudScore": 10
+  },
+  {
+    "id": "USR002",
+    "name": "Bob Smith",
+    "age": 28,
+    "verificationDate": "15/06/2022",
+    "status": "Pending",
+    "industry": "BFSI",
+    "fraudScore": 45
+  },
+  {
+    "id": "USR003",
+    "name": "TechCorp Ltd.",
+    "age": 0,
+    "verificationDate": "22/03/2023",
+    "status": "Flagged",
+    "industry": "E-commerce",
+    "fraudScore": 80
+  },
+  {
+    "id": "USR004",
+    "name": "Carol Lee",
+    "age": 45,
+    "verificationDate": "01/11/2023",
+    "status": "Rejected",
+    "industry": "Telecom",
+    "fraudScore": 95
+  },
+  {
+    "id": "USR005",
+    "name": "David Patel",
+    "age": 29,
+    "verificationDate": "14/02/2024",
+    "status": "Verified",
+    "industry": "Fintech",
+    "fraudScore": 5
+  },
+  {
+    "id": "USR006",
+    "name": "Emily White",
+    "age": 50,
+    "verificationDate": "20/09/2023",
+    "status": "Verified",
+    "industry": "Healthcare",
+    "fraudScore": 12
+  },
+  {
+    "id": "USR007",
+    "name": "Frank Green",
+    "age": 31,
+    "verificationDate": "05/11/2022",
+    "status": "Pending",
+    "industry": "Retail",
+    "fraudScore": 38
+  },
+  {
+    "id": "USR008",
+    "name": "Global Solutions Inc.",
+    "age": 0,
+    "verificationDate": "18/04/2023",
+    "status": "Flagged",
+    "industry": "Logistics",
+    "fraudScore": 72
+  },
+  {
+    "id": "USR009",
+    "name": "Grace Hall",
+    "age": 24,
+    "verificationDate": "25/12/2023",
+    "status": "Rejected",
+    "industry": "Education",
+    "fraudScore": 98
+  },
+  {
+    "id": "USR010",
+    "name": "Henry Clark",
+    "age": 39,
+    "verificationDate": "01/01/2024",
+    "status": "Verified",
+    "industry": "Manufacturing",
+    "fraudScore": 7
+  },
+  {
+    "id": "USR011",
+    "name": "Ivy Adams",
+    "age": 27,
+    "verificationDate": "03/07/2023",
+    "status": "Verified",
+    "industry": "Fintech",
+    "fraudScore": 15
+  },
+  {
+    "id": "USR012",
+    "name": "Jack Miller",
+    "age": 42,
+    "verificationDate": "01/08/2022",
+    "status": "Pending",
+    "industry": "BFSI",
+    "fraudScore": 50
+  },
+  {
+    "id": "USR013",
+    "name": "Innovate Co.",
+    "age": 0,
+    "verificationDate": "09/06/2023",
+    "status": "Flagged",
+    "industry": "Software",
+    "fraudScore": 85
+  },
+  {
+    "id": "USR014",
+    "name": "Karen King",
+    "age": 36,
+    "verificationDate": "17/10/2023",
+    "status": "Rejected",
+    "industry": "Automotive",
+    "fraudScore": 90
+  },
+  {
+    "id": "USR015",
+    "name": "Liam Wright",
+    "age": 33,
+    "verificationDate": "08/03/2024",
+    "status": "Verified",
+    "industry": "E-commerce",
+    "fraudScore": 8
+  },
+  {
+    "id": "USR016",
+    "name": "Mia Turner",
+    "age": 48,
+    "verificationDate": "28/02/2023",
+    "status": "Verified",
+    "industry": "Telecom",
+    "fraudScore": 20
+  },
+  {
+    "id": "USR017",
+    "name": "Noah Davis",
+    "age": 22,
+    "verificationDate": "19/05/2022",
+    "status": "Pending",
+    "industry": "Hospitality",
+    "fraudScore": 60
+  },
+  {
+    "id": "USR018",
+    "name": "OptiCorp Solutions",
+    "age": 0,
+    "verificationDate": "25/01/2023",
+    "status": "Flagged",
+    "industry": "Consulting",
+    "fraudScore": 75
+  },
+  {
+    "id": "USR019",
+    "name": "Pamela Scott",
+    "age": 55,
+    "verificationDate": "20/11/2023",
+    "status": "Rejected",
+    "industry": "Real Estate",
+    "fraudScore": 92
+  },
+  {
+    "id": "USR020",
+    "name": "Quinn Baker",
+    "age": 30,
+    "verificationDate": "01/04/2024",
+    "status": "Verified",
+    "industry": "Energy",
+    "fraudScore": 11
+  },
+  {
+    "id": "USR021",
+    "name": "Rachel Young",
+    "age": 37,
+    "verificationDate": "12/08/2023",
+    "status": "Verified",
+    "industry": "Fintech",
+    "fraudScore": 18
+  },
+  {
+    "id": "USR022",
+    "name": "Sam Harris",
+    "age": 26,
+    "verificationDate": "30/09/2022",
+    "status": "Pending",
+    "industry": "BFSI",
+    "fraudScore": 40
+  },
+  {
+    "id": "USR023",
+    "name": "Synergy Group",
+    "age": 0,
+    "verificationDate": "02/05/2023",
+    "status": "Flagged",
+    "industry": "Media",
+    "fraudScore": 88
+  },
+  {
+    "id": "USR024",
+    "name": "Tina Lewis",
+    "age": 41,
+    "verificationDate": "05/10/2023",
+    "status": "Rejected",
+    "industry": "Aerospace",
+    "fraudScore": 93
+  },
+  {
+    "id": "USR025",
+    "name": "Umar Khan",
+    "age": 35,
+    "verificationDate": "20/02/2024",
+    "status": "Verified",
+    "industry": "Fintech",
+    "fraudScore": 6
+  },
+  {
+    "id": "USR026",
+    "name": "Victoria Price",
+    "age": 52,
+    "verificationDate": "15/03/2023",
+    "status": "Verified",
+    "industry": "Healthcare",
+    "fraudScore": 14
+  },
+  {
+    "id": "USR027",
+    "name": "Walter Scott",
+    "age": 29,
+    "verificationDate": "22/07/2022",
+    "status": "Pending",
+    "industry": "Retail",
+    "fraudScore": 48
+  },
+  {
+    "id": "USR028",
+    "name": "Xcelerate Inc.",
+    "age": 0,
+    "verificationDate": "05/04/2023",
+    "status": "Flagged",
+    "industry": "Manufacturing",
+    "fraudScore": 78
+  },
+  {
+    "id": "USR029",
+    "name": "Yara Ahmed",
+    "age": 23,
+    "verificationDate": "10/12/2023",
+    "status": "Rejected",
+    "industry": "Education",
+    "fraudScore": 96
+  },
+  {
+    "id": "USR030",
+    "name": "Zoe Chen",
+    "age": 40,
+    "verificationDate": "15/01/2024",
+    "status": "Verified",
+    "industry": "Logistics",
+    "fraudScore": 9
+  },
+  {
+    "id": "USR031",
+    "name": "Adam Brown",
+    "age": 32,
+    "verificationDate": "01/09/2023",
+    "status": "Verified",
+    "industry": "Fintech",
+    "fraudScore": 13
+  },
+  {
+    "id": "USR032",
+    "name": "Betty Davis",
+    "age": 25,
+    "verificationDate": "01/06/2022",
+    "status": "Pending",
+    "industry": "BFSI",
+    "fraudScore": 55
+  },
+  {
+    "id": "USR033",
+    "name": "Corp Solutions LLC",
+    "age": 0,
+    "verificationDate": "01/03/2023",
+    "status": "Flagged",
+    "industry": "E-commerce",
+    "fraudScore": 82
+  },
+  {
+    "id": "USR034",
+    "name": "Daniel Evans",
+    "age": 47,
+    "verificationDate": "15/11/2023",
+    "status": "Rejected",
+    "industry": "Telecom",
+    "fraudScore": 94
+  },
+  {
+    "id": "USR035",
+    "name": "Ella Garcia",
+    "age": 30,
+    "verificationDate": "20/03/2024",
+    "status": "Verified",
+    "industry": "Fintech",
+    "fraudScore": 4
+  },
+  {
+    "id": "USR036",
+    "name": "Felix Harris",
+    "age": 38,
+    "verificationDate": "20/01/2023",
+    "status": "Verified",
+    "industry": "Healthcare",
+    "fraudScore": 16
+  },
+  {
+    "id": "USR037",
+    "name": "Gina Rodriguez",
+    "age": 21,
+    "verificationDate": "10/04/2022",
+    "status": "Pending",
+    "industry": "Retail",
+    "fraudScore": 65
+  },
+  {
+    "id": "USR038",
+    "name": "Horizon Tech",
+    "age": 0,
+    "verificationDate": "12/02/2023",
+    "status": "Flagged",
+    "industry": "Software",
+    "fraudScore": 70
+  },
+  {
+    "id": "USR039",
+    "name": "Ian Thompson",
+    "age": 58,
+    "verificationDate": "01/10/2023",
+    "status": "Rejected",
+    "industry": "Automotive",
+    "fraudScore": 99
+  },
+  {
+    "id": "USR040",
+    "name": "Julia Martinez",
+    "age": 29,
+    "verificationDate": "10/04/2024",
+    "status": "Verified",
+    "industry": "E-commerce",
+    "fraudScore": 3
+  },
+  {
+    "id": "USR041",
+    "name": "Kevin White",
+    "age": 33,
+    "verificationDate": "25/07/2023",
+    "status": "Verified",
+    "industry": "Fintech",
+    "fraudScore": 17
+  },
+  {
+    "id": "USR042",
+    "name": "Linda Jackson",
+    "age": 46,
+    "verificationDate": "20/08/2022",
+    "status": "Pending",
+    "industry": "BFSI",
+    "fraudScore": 52
+  },
+  {
+    "id": "USR043",
+    "name": "MegaCorp LLC",
+    "age": 0,
+    "verificationDate": "20/06/2023",
+    "status": "Flagged",
+    "industry": "Consulting",
+    "fraudScore": 87
+  },
+  {
+    "id": "USR044",
+    "name": "Nancy Wright",
+    "age": 31,
+    "verificationDate": "10/09/2023",
+    "status": "Rejected",
+    "industry": "Real Estate",
+    "fraudScore": 91
+  },
+  {
+    "id": "USR045",
+    "name": "Oliver Chen",
+    "age": 28,
+    "verificationDate": "25/01/2024",
+    "status": "Verified",
+    "industry": "Energy",
+    "fraudScore": 2
+  },
+  {
+    "id": "USR046",
+    "name": "Patricia Lopez",
+    "age": 39,
+    "verificationDate": "05/08/2023",
+    "status": "Verified",
+    "industry": "Fintech",
+    "fraudScore": 19
+  },
+  {
+    "id": "USR047",
+    "name": "Robert Green",
+    "age": 24,
+    "verificationDate": "15/09/2022",
+    "status": "Pending",
+    "industry": "Hospitality",
+    "fraudScore": 62
+  },
+  {
+    "id": "USR048",
+    "name": "Summit Ventures",
+    "age": 0,
+    "verificationDate": "10/05/2023",
+    "status": "Flagged",
+    "industry": "Media",
+    "fraudScore": 89
+  },
+  {
+    "id": "USR049",
+    "name": "Ursula Hall",
+    "age": 43,
+    "verificationDate": "20/10/2023",
+    "status": "Rejected",
+    "industry": "Aerospace",
+    "fraudScore": 97
+  },
+  {
+    "id": "USR050",
+    "name": "Vincent Kim",
+    "age": 36,
+    "verificationDate": "05/02/2024",
+    "status": "Verified",
+    "industry": "Fintech",
+    "fraudScore": 1
+  },
+  {
+    "id": "USR051",
+    "name": "Wendy Davis",
+    "age": 30,
+    "verificationDate": "05/01/2023",
+    "status": "Verified",
+    "industry": "Healthcare",
+    "fraudScore": 10
+  },
+  {
+    "id": "USR052",
+    "name": "Xavier King",
+    "age": 44,
+    "verificationDate": "10/07/2022",
+    "status": "Pending",
+    "industry": "Retail",
+    "fraudScore": 42
+  },
+  {
+    "id": "USR053",
+    "name": "Yumi Lee",
+    "age": 27,
+    "verificationDate": "08/03/2023",
+    "status": "Flagged",
+    "industry": "Manufacturing",
+    "fraudScore": 77
+  },
+  {
+    "id": "USR054",
+    "name": "Zackary Bell",
+    "age": 51,
+    "verificationDate": "08/11/2023",
+    "status": "Rejected",
+    "industry": "Education",
+    "fraudScore": 96
+  },
+  {
+    "id": "USR055",
+    "name": "Anna Scott",
+    "age": 26,
+    "verificationDate": "28/02/2024",
+    "status": "Verified",
+    "industry": "Logistics",
+    "fraudScore": 6
+  },
+  {
+    "id": "USR056",
+    "name": "Ben Carter",
+    "age": 35,
+    "verificationDate": "12/09/2023",
+    "status": "Verified",
+    "industry": "Fintech",
+    "fraudScore": 14
+  },
+  {
+    "id": "USR057",
+    "name": "Chloe Adams",
+    "age": 29,
+    "verificationDate": "25/05/2022",
+    "status": "Pending",
+    "industry": "BFSI",
+    "fraudScore": 58
+  },
+  {
+    "id": "USR058",
+    "name": "Dynamic Solutions",
+    "age": 0,
+    "verificationDate": "25/04/2023",
+    "status": "Flagged",
+    "industry": "E-commerce",
+    "fraudScore": 81
+  },
+  {
+    "id": "USR059",
+    "name": "Ethan Parker",
+    "age": 40,
+    "verificationDate": "01/12/2023",
+    "status": "Rejected",
+    "industry": "Telecom",
+    "fraudScore": 93
+  },
+  {
+    "id": "USR060",
+    "name": "Fiona Green",
+    "age": 32,
+    "verificationDate": "10/01/2024",
+    "status": "Verified",
+    "industry": "Fintech",
+    "fraudScore": 5
+  },
+  {
+    "id": "USR061",
+    "name": "George Miller",
+    "age": 49,
+    "verificationDate": "01/02/2023",
+    "status": "Verified",
+    "industry": "Healthcare",
+    "fraudScore": 12
+  },
+  {
+    "id": "USR062",
+    "name": "Hannah Lee",
+    "age": 23,
+    "verificationDate": "20/06/2022",
+    "status": "Pending",
+    "industry": "Retail",
+    "fraudScore": 68
+  },
+  {
+    "id": "USR063",
+    "name": "Innovate Systems",
+    "age": 0,
+    "verificationDate": "15/01/2023",
+    "status": "Flagged",
+    "industry": "Software",
+    "fraudScore": 73
+  },
+  {
+    "id": "USR064",
+    "name": "Jessica White",
+    "age": 54,
+    "verificationDate": "25/11/2023",
+    "status": "Rejected",
+    "industry": "Automotive",
+    "fraudScore": 99
+  },
+  {
+    "id": "USR065",
+    "name": "Kyle Davis",
+    "age": 31,
+    "verificationDate": "05/03/2024",
+    "status": "Verified",
+    "industry": "E-commerce",
+    "fraudScore": 4
+  },
+  {
+    "id": "USR066",
+    "name": "Lauren Price",
+    "age": 38,
+    "verificationDate": "15/07/2023",
+    "status": "Verified",
+    "industry": "Fintech",
+    "fraudScore": 18
+  },
+  {
+    "id": "USR067",
+    "name": "Matthew Kim",
+    "age": 25,
+    "verificationDate": "08/08/2022",
+    "status": "Pending",
+    "industry": "BFSI",
+    "fraudScore": 51
+  },
+  {
+    "id": "USR068",
+    "name": "Nexus Corp.",
+    "age": 0,
+    "verificationDate": "01/06/2023",
+    "status": "Flagged",
+    "industry": "Consulting",
+    "fraudScore": 86
+  },
+  {
+    "id": "USR069",
+    "name": "Olivia Brown",
+    "age": 37,
+    "verificationDate": "22/09/2023",
+    "status": "Rejected",
+    "industry": "Real Estate",
+    "fraudScore": 92
+  },
+  {
+    "id": "USR070",
+    "name": "Peter Garcia",
+    "age": 30,
+    "verificationDate": "05/01/2024",
+    "status": "Verified",
+    "industry": "Energy",
+    "fraudScore": 3
+  },
+  {
+    "id": "USR071",
+    "name": "Quincy Adams",
+    "age": 42,
+    "verificationDate": "18/08/2023",
+    "status": "Verified",
+    "industry": "Fintech",
+    "fraudScore": 16
+  },
+  {
+    "id": "USR072",
+    "name": "Rebecca Smith",
+    "age": 28,
+    "verificationDate": "01/09/2022",
+    "status": "Pending",
+    "industry": "Hospitality",
+    "fraudScore": 60
+  },
+  {
+    "id": "USR073",
+    "name": "Strategic Solutions",
+    "age": 0,
+    "verificationDate": "15/05/2023",
+    "status": "Flagged",
+    "industry": "Media",
+    "fraudScore": 90
+  },
+  {
+    "id": "USR074",
+    "name": "Sophia Turner",
+    "age": 45,
+    "verificationDate": "10/10/2023",
+    "status": "Rejected",
+    "industry": "Aerospace",
+    "fraudScore": 95
+  },
+  {
+    "id": "USR075",
+    "name": "Thomas Lee",
+    "age": 34,
+    "verificationDate": "12/02/2024",
+    "status": "Verified",
+    "industry": "Fintech",
+    "fraudScore": 2
+  },
+  {
+    "id": "USR076",
+    "name": "Uma Patel",
+    "age": 50,
+    "verificationDate": "20/03/2023",
+    "status": "Verified",
+    "industry": "Healthcare",
+    "fraudScore": 11
+  },
+  {
+    "id": "USR077",
+    "name": "Victor Johnson",
+    "age": 22,
+    "verificationDate": "01/07/2022",
+    "status": "Pending",
+    "industry": "Retail",
+    "fraudScore": 65
+  },
+  {
+    "id": "USR078",
+    "name": "WorldWide Inc.",
+    "age": 0,
+    "verificationDate": "12/04/2023",
+    "status": "Flagged",
+    "industry": "Manufacturing",
+    "fraudScore": 79
+  },
+  {
+    "id": "USR079",
+    "name": "Xena White",
+    "age": 24,
+    "verificationDate": "15/12/2023",
+    "status": "Rejected",
+    "industry": "Education",
+    "fraudScore": 98
+  },
+  {
+    "id": "USR080",
+    "name": "Yasin Khan",
+    "age": 41,
+    "verificationDate": "20/01/2024",
+    "status": "Verified",
+    "industry": "Logistics",
+    "fraudScore": 8
+  },
+  {
+    "id": "USR081",
+    "name": "Zara Ahmed",
+    "age": 33,
+    "verificationDate": "05/09/2023",
+    "status": "Verified",
+    "industry": "Fintech",
+    "fraudScore": 15
+  },
+  {
+    "id": "USR082",
+    "name": "Andrew Bell",
+    "age": 26,
+    "verificationDate": "10/06/2022",
+    "status": "Pending",
+    "industry": "BFSI",
+    "fraudScore": 53
+  },
+  {
+    "id": "USR083",
+    "name": "Bright Minds Corp.",
+    "age": 0,
+    "verificationDate": "05/03/2023",
+    "status": "Flagged",
+    "industry": "E-commerce",
+    "fraudScore": 83
+  },
+  {
+    "id": "USR084",
+    "name": "Catherine King",
+    "age": 48,
+    "verificationDate": "10/11/2023",
+    "status": "Rejected",
+    "industry": "Telecom",
+    "fraudScore": 94
+  },
+  {
+    "id": "USR085",
+    "name": "David Evans",
+    "age": 29,
+    "verificationDate": "25/03/2024",
+    "status": "Verified",
+    "industry": "Fintech",
+    "fraudScore": 7
+  },
+  {
+    "id": "USR086",
+    "name": "Eleanor Wright",
+    "age": 36,
+    "verificationDate": "22/01/2023",
+    "status": "Verified",
+    "industry": "Healthcare",
+    "fraudScore": 13
+  },
+  {
+    "id": "USR087",
+    "name": "Frankie Chen",
+    "age": 21,
+    "verificationDate": "15/04/2022",
+    "status": "Pending",
+    "industry": "Retail",
+    "fraudScore": 67
+  },
+  {
+    "id": "USR088",
+    "name": "Grand Vision Ltd.",
+    "age": 0,
+    "verificationDate": "18/02/2023",
+    "status": "Flagged",
+    "industry": "Software",
+    "fraudScore": 71
+  },
+  {
+    "id": "USR089",
+    "name": "Holly Brown",
+    "age": 56,
+    "verificationDate": "08/10/2023",
+    "status": "Rejected",
+    "industry": "Automotive",
+    "fraudScore": 99
+  },
+  {
+    "id": "USR090",
+    "name": "Isaac Rodriguez",
+    "age": 30,
+    "verificationDate": "05/04/2024",
+    "status": "Verified",
+    "industry": "E-commerce",
+    "fraudScore": 5
+  },
+  {
+    "id": "USR091",
+    "name": "Jasmine Miller",
+    "age": 37,
+    "verificationDate": "30/07/2023",
+    "status": "Verified",
+    "industry": "Fintech",
+    "fraudScore": 19
+  },
+  {
+    "id": "USR092",
+    "name": "Kenneth Hall",
+    "age": 43,
+    "verificationDate": "25/08/2022",
+    "status": "Pending",
+    "industry": "BFSI",
+    "fraudScore": 54
+  },
+  {
+    "id": "USR093",
+    "name": "Leading Edge Inc.",
+    "age": 0,
+    "verificationDate": "25/06/2023",
+    "status": "Flagged",
+    "industry": "Consulting",
+    "fraudScore": 84
+  },
+  {
+    "id": "USR094",
+    "name": "Monica Scott",
+    "age": 32,
+    "verificationDate": "18/09/2023",
+    "status": "Rejected",
+    "industry": "Real Estate",
+    "fraudScore": 90
+  },
+  {
+    "id": "USR095",
+    "name": "Nathan Turner",
+    "age": 27,
+    "verificationDate": "30/01/2024",
+    "status": "Verified",
+    "industry": "Energy",
+    "fraudScore": 1
+  },
+  {
+    "id": "USR096",
+    "name": "Ophelia Lewis",
+    "age": 40,
+    "verificationDate": "01/08/2023",
+    "status": "Verified",
+    "industry": "Fintech",
+    "fraudScore": 20
+  },
+  {
+    "id": "USR097",
+    "name": "Patrick Davis",
+    "age": 23,
+    "verificationDate": "08/09/2022",
+    "status": "Pending",
+    "industry": "Hospitality",
+    "fraudScore": 63
+  },
+  {
+    "id": "USR098",
+    "name": "Quantum Systems",
+    "age": 0,
+    "verificationDate": "20/05/2023",
+    "status": "Flagged",
+    "industry": "Media",
+    "fraudScore": 89
+  },
+  {
+    "id": "USR099",
+    "name": "Rebecca Green",
+    "age": 44,
+    "verificationDate": "25/10/2023",
+    "status": "Rejected",
+    "industry": "Aerospace",
+    "fraudScore": 96
+  },
+  {
+    "id": "USR100",
+    "name": "Samuel Lee",
+    "age": 35,
+    "verificationDate": "01/02/2024",
+    "status": "Verified",
+    "industry": "Fintech",
+    "fraudScore": 4
+  }
+]

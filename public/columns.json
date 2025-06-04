@@ -1,0 +1,53 @@
+[
+  {
+    "key": "id",
+    "displayName": "User ID",
+    "type": "string",
+    "visible": true,
+    "editable": false
+  },
+  {
+    "key": "name",
+    "displayName": "Name",
+    "type": "string",
+    "visible": true,
+    "editable": true
+  },
+  {
+    "key": "age",
+    "displayName": "Age",
+    "type": "number",
+    "visible": true,
+    "editable": true
+  },
+  {
+    "key": "verificationDate",
+    "displayName": "Verification Date",
+    "type": "date",
+    "visible": true,
+    "editable": true
+  },
+  {
+    "key": "status",
+    "displayName": "Verification Status",
+    "type": "options",
+    "visible": true,
+    "options": ["Verified", "Pending", "Rejected", "Flagged"],
+    "editable": true
+  },
+  {
+    "key": "industry",
+    "displayName": "Industry",
+    "type": "options",
+    "visible": true,
+    "options": ["Fintech", "BFSI", "Telecom", "E-commerce"],
+    "editable": true
+  },
+  {
+    "key": "fraudScore",
+    "displayName": "Fraud Score",
+    "type": "number",
+    "visible": true,
+    "editable": true
+  }
+]
