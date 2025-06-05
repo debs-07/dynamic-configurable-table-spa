@@ -3,9 +3,9 @@ import { Box, Button, Divider, Grid, Typography } from "@mui/material";
 import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 
-import { FilterInput } from "../FilterInput";
-import { DateFilterInput } from "../DateFilterInput";
-import { MultiSelectFilter } from "../MultiSelectFilter";
+import { FilterInput } from "../Search/FilterInput";
+import { DateFilterInput } from "../Search/DateFilterInput";
+import { MultiSelectFilter } from "../Search/MultiSelectFilter";
 import { setFilters } from "@/redux/tableFilterSlice";
 
 const initColFilters = (tableColumns) =>
