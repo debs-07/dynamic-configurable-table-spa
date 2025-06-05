@@ -56,3 +56,9 @@ A Single Page Application (SPA) built with ReactJS, Redux, and Material-UI, feat
 - `src/redux/`: Redux slices and API (`tableColumnsSlice`, `tableRowsSlice`, `tableFilterSlice`, `tableDataApiSlice`).
 - `src/utils/`: Utilities for filtering (`filterData`) and URL handling (`urlUtils`).
 - `columns.json` & `data.json`: JSON configs for columns and data.
+
+## Screen Shots
+
+![Image](https://github.com/user-attachments/assets/43c37464-7b53-4c20-904a-4a8c430a5145)
+![Image](https://github.com/user-attachments/assets/e105fae6-3c5f-4dd4-891b-28648609f5f1)
+![Image](https://github.com/user-attachments/assets/06cb970a-b17a-42a7-823e-8c80183aba63)
