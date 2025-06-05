@@ -2,12 +2,12 @@ import { useDispatch, useSelector } from "react-redux";
 import {
   Box,
   Checkbox,
+  List,
   ListItem,
   ListItemButton,
   ListItemIcon,
   ListItemText,
 } from "@mui/material";
-import List from "@mui/material/List";
 
 import { toggleColumnVisibility } from "@/redux/tableColumnsSlice";
 

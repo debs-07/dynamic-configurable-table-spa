@@ -1,12 +1,13 @@
-import { useDispatch, useSelector } from "react-redux";
-import { TableContainer } from "./components/Table/TableContainer";
 import { useEffect } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { useLocation, useNavigate } from "react-router-dom";
+
 import {
   serializeTableFiltersToUrl,
   deserializeTableFiltersFromUrl,
 } from "./utils/urlUtils";
-import { useLocation, useNavigate } from "react-router-dom";
 import { setFilters } from "./redux/tableFilterSlice";
+import { TableContainer } from "./components/Table/TableContainer";
 
 export const App = () => {
   const dispatch = useDispatch();
