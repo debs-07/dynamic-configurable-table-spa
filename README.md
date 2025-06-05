@@ -19,7 +19,7 @@ A Single Page Application (SPA) built with ReactJS, Redux, and Material-UI, feat
 - **Data Source**: Table data is loaded from `data.json` and rendered dynamically.
 - **Column Visibility**: Toggle column visibility via the "**Manage Columns**" button, with preferences stored in `sessionStorage`.
 - **Filtering**: Use the "**Filters**" panel to apply multi-condition filters (e.g., `equals`, `contains`, `greater than`) on columns. Filters update in real-time and can be reset.
-- **Shareable Views**: Active filters and column visibility are serialized to the URL for sharing. Opening a shared link restores the view.
+- **Shareable Views**: Active filters and column visibility are serialized to the URL for sharing.Use the "**Url**" button to copy the url. Opening a shared link restores the view.
 - **Editable Cells**: Edit cells in-place (text for strings/numbers, date pickers for dates, dropdowns for options). Changes persist in Redux state during the session.
 - **Responsive Design**: The UI adapts to different screen sizes using Material-UI's responsive components.
 
@@ -44,6 +44,7 @@ A Single Page Application (SPA) built with ReactJS, Redux, and Material-UI, feat
 - **Custom Filter Inputs**: Specialized inputs for each column type (e.g., `DateFilterInput` for dates, `MultiSelectFilter` for options).
 - **Smooth UX**: Click-away listeners close filter/column panels, and buttons toggle between outlined and contained states for clarity.
 - **Error Handling**: Graceful handling of empty or invalid JSON data via Redux Toolkit Query.
+- **Copy Url Button**: Provides a convenient, one-click solution to copy the current page's URL directly.
 
 ---
 
