@@ -1,5 +1,6 @@
 import { useRef, useState } from "react";
 import { Box, Button, ClickAwayListener, Grid, Popper } from "@mui/material";
+import LinkIcon from "@mui/icons-material/Link";
 import TuneIcon from "@mui/icons-material/Tune";
 import ViewColumnIcon from "@mui/icons-material/ViewColumn";
 
@@ -19,6 +20,10 @@ export const TableToolbar = () => {
     setPopper(0);
   };
 
+  const handleCopyFilter = () => {
+    navigator.clipboard.writeText(window.location.href);
+  };
+
   return (
     <Grid
       size={12}
@@ -29,6 +34,15 @@ export const TableToolbar = () => {
         padding: "0.5% 0%",
       }}
     >
+      <Button
+        variant="outlined"
+        startIcon={<LinkIcon />}
+        onClick={handleCopyFilter}
+        sx={{ textTransform: "none" }}
+      >
+        URL
+      </Button>
+
       <ClickAwayListener onClickAway={handleClickAway}>
         <Box>
           <Button
