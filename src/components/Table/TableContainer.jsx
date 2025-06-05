@@ -16,13 +16,15 @@ const getDataGridColumns = (tableColumns, isSmallScreen) =>
     .filter(({ visible }) => visible)
     .map(({ field, headerName, editable, type, options }, index) => {
       const columnProps = {
+        headerAlign: "center",
+        align: "center",
         field,
-        headerName,
         editable,
-        type: type === "options" ? "singleSelect" : type,
+        headerName,
         valueOptions: options,
+        type: type === "options" ? "singleSelect" : type,
         ...(type === "date" && {
-          valueGetter: ({ value }) => value && new Date(value),
+          valueGetter: (value) => value && new Date(value),
         }),
       };
       return isSmallScreen
@@ -80,6 +82,9 @@ export const TableContainer = () => {
         columns={dataGridColumnsConfig}
         loading={colsLoading || rowsLoading}
         processRowUpdate={processRowUpdate}
+        disableColumnMenu={true}
+        pageSizeOptions={[10, 20]}
+        sx={{ width: "100%" }}
         initialState={{
           pagination: {
             paginationModel: {
@@ -87,9 +92,6 @@ export const TableContainer = () => {
             },
           },
         }}
-        disableColumnMenu={true}
-        pageSizeOptions={[10, 20]}
-        sx={{ width: "100%" }}
       />
     </Grid>
   );
