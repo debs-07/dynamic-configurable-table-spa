@@ -19,7 +19,20 @@ export const TableColumnVisibilityManager = () => {
     dispatch(toggleColumnVisibility(field));
 
   return (
-    <Box boxShadow={3}>
+    <Box
+      boxShadow={3}
+      sx={{
+        maxHeight: "300px",
+        display: "flow",
+        overflow: "auto",
+        " &::-webkit-scrollbar": {
+          width: 0,
+          height: 0,
+        },
+        scrollbarWidth: "none",
+        msOverflowStyle: "none",
+      }}
+    >
       <List
         dense
         sx={{ width: "100%", maxWidth: 360, bgcolor: "background.paper" }}
